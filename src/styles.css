@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    text-align: center;
+}
+
+.title {
+    align-self: center;
+    align-items: center;
+    font-family: "Zen Dots", cursive !important;
+}
+
+body {
+    background-color: #b32424;
+}
+
+.desc {
+    font-family: "Kdam Thmor Pro", sans-serif !important;
+}

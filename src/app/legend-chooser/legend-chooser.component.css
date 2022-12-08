@@ -1,0 +1,68 @@
+/* Private styles for component */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+.legend-type-changer {
+    font-family: "Source Sans Pro", monospace;
+}
+
+.legend-type-changer.legend-type-allowed {
+    background-color: #007706;
+    transition-duration: 0.75s;
+}
+
+.legend-type-changer.legend-type-allowed:hover {
+    background-color: #770600;
+    cursor: pointer;
+}
+
+.legend-type-changer.legend-type-disallowed {
+    background-color: #770600;
+    transition-duration: 0.75s;
+}
+
+.legend-type-changer.legend-type-disallowed:hover {
+    background-color: #007706;
+    cursor: pointer;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 20px;
+}
+
+.type {
+    font-family: "Source Sans Pro", monospace;
+}
+
+.legend-selector {
+    border: 2px outset #c50000;
+    background-color: black;
+    color: #c50000;
+    font-family: "Raleway", sans-serif;
+    transition-duration: 0.85s;
+    width: 100px;
+    height: 50px;
+}
+
+.legend-selector:hover {
+    background-color: #c50000;
+    color: black;
+    cursor: pointer;
+}
+
+.name {
+    font-family: "Zen Dots", cursive;
+    color: white;
+}
+
+.infoLink {
+    font-family: "Source Sans Pro", monospace;
+    text-decoration: none;
+    color: #880000;
+}
+
+.infoLink:hover {
+    text-decoration: underline;
+    color: #1414ca;
+}

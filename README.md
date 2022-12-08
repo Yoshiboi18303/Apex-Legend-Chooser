@@ -1,27 +1,48 @@
-# ApexLegendChooser
+# Apex Legend Chooser
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+A randomizer website coded with JavaScript (Angular).
 
-## Development server
+![Randomizer Screenshot](https://cdn.discordapp.com/attachments/1028104425371340851/1050498208155058266/image.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## How to use
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+All you need to do to use this randomizer is to open the website, customize which legend types you want to have chosen from and click the `Select Legend` button, it'll take only a few seconds for it to select a Legend for you to play as.
 
-## Build
+![Randomizer Demo GIF](https://cdn.discordapp.com/attachments/1028104425371340851/1050508102862131320/randomizer-demo.gif)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## How to run locally
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+You'll need to make sure that you have [NodeJS](https://nodejs.org), the Angular CLI from NPM (`npm install -g @angular/cli`) and [Git](https://git-scm.com) installed. You have all of those? Good, let's move on.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Clone the repository
 
-## Further help
+Open your terminal and run `git clone https://github.com/Yoshiboi18303/Apex-Legend-Chooser-Code Apex-Legend-Chooser` then wait for Git to clone the repository.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+> What if I don't want to install Git?
+
+That's fine! There's a second option to clone the repository, follow these instructions.
+
+- 1. Go to [the repository](https://github.com/Yoshiboi18303/Apex-Legend-Chooser-Code).
+- 2. Click on the green `Code` button, then click on the `Download ZIP` button
+- 3. Find the Zip file, right click on it, and then click on the `Extract All` button.
+- 4. Put the files wherever you like, then click on the `Extract` button.
+
+**Boom!** All you'll have to do is wait for the zip file to be extracted, then you can follow along.
+
+---
+
+### Serve the website
+
+Make sure your terminal is in the folder you created from cloning the repository (or open one in that folder if you haven't already), then run `ng serve --open`.
+
+> Why use the `serve` command? Because this will build the project and refresh every time you update the source code.
+
+> Why the `--open` option? That's because this will open the website immediately after it's built and the server is up, saving you some time.
+
+---
