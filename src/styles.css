@@ -26,21 +26,17 @@ body {
 
 .type-changer.type-allowed {
     background-color: #007706;
-    transition-duration: 0.75s;
 }
 
 .type-changer.type-allowed:hover {
-    background-color: #770600;
     cursor: pointer;
 }
 
 .type-changer.type-disallowed {
     background-color: #770600;
-    transition-duration: 0.75s;
 }
 
 .type-changer.type-disallowed:hover {
-    background-color: #007706;
     cursor: pointer;
 }
 

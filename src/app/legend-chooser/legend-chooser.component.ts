@@ -18,8 +18,7 @@ export class LegendChooserComponent implements OnInit {
   }
 
   selectLegend() {
-    let legend = this.legendChooserService.selectRandomLegend();
-    this.selectedLegend = legend;
+    this.selectedLegend = this.legendChooserService.selectRandomLegend();
   }
 
   switchEnabled(legendType: any) {

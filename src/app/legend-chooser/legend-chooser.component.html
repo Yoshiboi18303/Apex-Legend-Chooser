@@ -1,13 +1,12 @@
 <div *ngFor="let value of this.legendChooserService.legendTypesAllowed" class="buttons">
-    <h2 class="type">{{value.type}}</h2>
     <div *ngIf="value.enabled">
         <button type="button" class="type-changer type-allowed" (click)="switchEnabled(value)">
-            <h2>Allowed</h2>
+            <h2 class="type">{{value.type}}</h2>
         </button>
     </div>
     <div *ngIf="!value.enabled">
         <button type="button" class="type-changer type-disallowed" (click)="switchEnabled(value)">
-            <h2>Disallowed</h2>
+            <h2 class="type">{{value.type}}</h2>
         </button>
     </div>
 </div>

@@ -50,3 +50,7 @@ Make sure your terminal is in the folder you created from cloning the repository
 > Why the `--open` option? That's because this will open the website immediately after it's built and the server is up, saving you some time.
 
 ---
+
+## View what's to come
+
+Go **[here](https://trello.com/b/AW6XJ9gR/apex-legend-chooser)** to see what's to come/being developed!
