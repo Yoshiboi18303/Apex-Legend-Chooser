@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Storm&display=swap');
+
+footer {
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 50px;
+    height: 135%;
+}
+
+.copyright {
+    font-family: "Rubik Storm", cursive;
+    font-size: 175%;
+    position: relative;
+    top: 50px;
+    text-align: left;
+    padding: 15px;
+}
+
+.repo-img {
+    width: 75px;
+    height: 75px;
+    float: right;
+    position: relative;
+    bottom: 45px;
+    padding-right: 15px;
+}
