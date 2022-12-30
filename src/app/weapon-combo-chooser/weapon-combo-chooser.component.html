@@ -1,15 +1,14 @@
 <div>
     <h3 class="desc">This will generate a weapon combo for you to use!</h3>
     <br>
-    <h2 class="type">Special Weapons Allowed</h2>
     <div *ngIf="this.specialWeaponsAllowed" (click)="this.specialWeaponsAllowed = !this.specialWeaponsAllowed">
-        <button type="button" class="type-changer type-allowed">
-            <h2>Allowed</h2>
+        <button type="button" class="type-changer type-allowed locked-width">
+            <h2 class="type">Special Weapons Allowed</h2>
         </button>
     </div>
     <div *ngIf="!this.specialWeaponsAllowed">
-        <button type="button" class="type-changer type-disallowed" (click)="this.specialWeaponsAllowed = !this.specialWeaponsAllowed">
-            <h2>Disallowed</h2>
+        <button type="button" class="type-changer type-disallowed locked-width" (click)="this.specialWeaponsAllowed = !this.specialWeaponsAllowed">
+            <h2 class="type">Special Weapons Disallowed</h2>
         </button>
     </div>
     <br>

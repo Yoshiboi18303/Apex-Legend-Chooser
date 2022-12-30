@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Legend } from '../legend';
 import { LegendChooserService } from '../legend-chooser.service';
+import { Type } from '../type';
 
 
 @Component({
@@ -11,17 +13,17 @@ export class LegendChooserComponent implements OnInit {
   constructor(public legendChooserService: LegendChooserService) {}
 
   amountEnabled = this.legendChooserService.legendTypesAllowed.length;
-  selectedLegend: any = null
+  selectedLegend: Legend | null = null
 
   ngOnInit(): void {
-    
+
   }
 
   selectLegend() {
     this.selectedLegend = this.legendChooserService.selectRandomLegend();
   }
 
-  switchEnabled(legendType: any) {
+  switchEnabled(legendType: Type) {
     legendType.enabled = !legendType.enabled;
     let type = legendType.type.split(" ")[0].toLowerCase();
 

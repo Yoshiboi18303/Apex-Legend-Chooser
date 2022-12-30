@@ -52,6 +52,10 @@ body {
 
 .selector:hover {
     background-color: #c50000;
-    color: black;
+    color: white;
     cursor: pointer;
+}
+
+.locked-width {
+    width: 275.64px;
 }

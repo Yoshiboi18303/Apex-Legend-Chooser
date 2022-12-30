@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Legend } from './legend';
+import { Type } from './type';
 
 @Injectable({
   providedIn: 'root'
@@ -211,7 +212,7 @@ export class LegendChooserService {
     ]
   };
 
-  public legendTypesAllowed: Array<any> = [
+  public legendTypesAllowed: Array<Type> = [
     {
       type: "Offensive Legends",
       enabled: true,
