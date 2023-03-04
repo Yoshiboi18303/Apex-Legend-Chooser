@@ -6,6 +6,16 @@ A randomizer website coded with JavaScript (Angular).
 
 ---
 
+## Deprecated
+
+This app will no longer be maintained as it has been moved from Angular to React, however the old app will still be available to access, and the source code will stay on here for you to work with.
+
+If you want to try out the new app, check out the [repository](https://github.com/Yoshiboi18303/apex-mini-randomizer), thank you for your understanding.
+
+**Please note this was a hard decision for me, so please don't harass me for not liking Angular.**
+
+---
+
 ## How to use
 
 All you need to do to use this randomizer is to [open the website](https://yoshiboi18303.github.io/Apex-Legend-Chooser/), customize which legend types you want to have chosen from and click the `Select Legend` button, it'll take only a few seconds for it to select a Legend for you to play as.
